@@ -1,0 +1,60 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header h1{
+    padding: 70px;
+    padding-bottom: 10px;
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header p{
+    padding-bottom: 30px;
+}
+
+section > div.textonly{
+    
+    font-size: 25px;
+    padding: 100px;
+    font-family: cursive;
+    line-height: 60px;
+}
+
+
+
+section > div.imagewithtext{
+    background-color: blue;
+    background-image: url(imagens/background001.jpg);
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    background-attachment: fixed;
+    box-shadow: inset rgba(0, 0, 0, 0.692) 1px 0px 20px 12px;
+    position: relative;
+    
+}
+
+div.inboxedtext{
+    font-size: 25px;
+    padding: 50px;
+    font-family: cursive;
+    line-height: 60px;
+    color: white;
+    background-color: rgba(128, 128, 128, 0.356);
+    max-width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-10%, -50%);
+    border-radius: 20px;
+}
