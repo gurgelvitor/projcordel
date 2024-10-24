@@ -40,6 +40,7 @@ section > div.imagewithtext{
     background-attachment: fixed;
     box-shadow: inset rgba(0, 0, 0, 0.692) 1px 0px 20px 12px;
     position: relative;
+    max-width: 400px;
     
 }
 
