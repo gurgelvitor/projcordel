@@ -5,7 +5,7 @@
 }
 
 header{
-    background-color: black;
+    background-image: linear-gradient(to bottom, black, grey);
     color: white;
     text-align: center;
 }
@@ -25,14 +25,11 @@ section > div.textonly{
     font-size: 20px;
     padding: 25px;
     font-family: cursive;
-    line-height: 70px;
+    line-height: 60px;
 }
-
-
 
 section > div.imagewithtext{
     background-color: blue;
-    background-image: url(imagens/background001.jpg);
     height: 700px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -40,7 +37,6 @@ section > div.imagewithtext{
     background-attachment: fixed;
     box-shadow: inset rgba(0, 0, 0, 0.692) 1px 0px 20px 12px;
     position: relative;
-    max-width: 400px;
     
 }
 
@@ -50,11 +46,23 @@ div.inboxedtext{
     font-family: cursive;
     line-height: 60px;
     color: white;
-    background-color: rgba(128, 128, 128, 0.356);
+    background-color: rgba(85, 85, 85, 0.753);
     max-width: 400px;
     position: absolute;
     top: 50%;
     left: 10%;
     transform: translate(-10%, -50%);
     border-radius: 20px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    color: white;
 }
