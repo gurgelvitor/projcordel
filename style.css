@@ -61,8 +61,72 @@ footer{
     text-align: center;
     padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
 }
 
 a{
     color: white;
+}
+
+#tableofcellphone{
+    max-width: 700px;
+    background-color: rgba(0, 41, 0, 0.747);
+    padding: 20px;
+    margin: auto;
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px black;
+    transition: all 0.5s;
+}
+
+#tableofcellphone:hover{
+    box-shadow: 0px -1px 30px 30px green;
+    transition: all 0.5s;
+}
+
+#tableofcellphone > #cellphonediv1{
+    margin: auto;
+    background-color: rgb(0, 0, 0);
+    border: 5px solid rgba(128, 128, 128, 0.329);
+    border-bottom: 0px;
+    width: 350px;
+    height: 500px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.61);
+
+}
+
+#buttons{
+    margin: auto;
+    position: relative;
+    width: 350px;
+    border: 5px solid grey;
+    border-top: 0px;
+    background-color: rgb(255, 255, 255);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.61);
+}
+
+#buttons img{
+    width: 90px;
+    padding: 10px;
+    border-radius: 50%;
+    position: relative;
+    box-sizing: border-box;
+    bottom: 0px;
+    transition: all 0.5s;
+}
+
+#buttons img:hover{
+    bottom: 30px;
+    box-shadow: 3px 3px 5px black;
+    transition: all 0.5s;
+}
+
+iframe{
+    width: 350px;
+    height: 500px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
 }
